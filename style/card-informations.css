@@ -21,25 +21,28 @@ div.align-card{
 
 .card{
     z-index: 2;
-    margin-top: 5%;
+	margin: 5% 0;
 }
 
 main.content{
     background-color: #FFFFFF;
     width: 450px;
-    height: 1200px;
+    height: 100%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+	padding: 20px 0;
 }
-
+div.my-informations {
+    margin: auto;
+    text-align: center;
+}
 div.my-informations img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin-left: 20%;
     margin-bottom: 5%;
 }
 
@@ -63,9 +66,9 @@ div.my-informations p{
 
 div.click-here{
     width: 300px;
-    height: 80px;
+    height: 70px;
     background-color: #22c1c3;
-    border-radius: 50px;
+    border-radius: 30px;
     margin-top: 5%;
 }
 
@@ -75,7 +78,7 @@ div.click-here p{
     font-size: 20px;
     color: #FFFFFF;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .redirect-social-media{
@@ -88,14 +91,15 @@ a{
 }
 
 img.icon{
-    width: 60px;
-    height: 60px;
-    margin-left: 50px;
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+	border-radius: 30%;
 }
 
 p.subtitles{
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #353839;
     text-align: center;
     margin-top: 40px;
